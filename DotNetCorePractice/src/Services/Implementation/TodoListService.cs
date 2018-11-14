@@ -6,7 +6,7 @@ namespace DotNetCorePractice.Services.Implementation
     {
         public string Create(string value)
         {
-            return "Create new item.";
+            return string.Format("Create new item {0}.", value);
         }
 
         public string Delete(int id)
